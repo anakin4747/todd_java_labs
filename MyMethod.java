@@ -16,6 +16,7 @@ public class MyMethod {
                     System.out.print("Enter y value: ");
                     int y = input.nextInt();
                     System.out.println(x + "^" + y + " = " + myPow(x,y));
+                    exit = false;
                 case 'b': 
                     //factorial
                 case 'c': 
@@ -26,6 +27,7 @@ public class MyMethod {
                     exit = true;
 
             }
+            //bitch what
 
             
         }
