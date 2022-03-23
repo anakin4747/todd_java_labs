@@ -150,10 +150,10 @@ public class MyMethod {
         System.out.println("***************************");
         System.out.print("Name: Todd Childerhose \nLab number: 7\nQuestion number: 1\n");
         System.out.println("***************************");
-    }// Prints header for screen
+    }
 
     public static void myFooter() {
         System.out.println("*** Goodbye from Todd Childerhose ***");
-    }// Prints footer for screen
+    }
 
 }
