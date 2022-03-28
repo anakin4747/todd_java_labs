@@ -1,5 +1,3 @@
-
-
 public class BinaryToDecimal {
     private int[] binaryArray;
 
@@ -48,9 +46,9 @@ public class BinaryToDecimal {
         return arrB;
     }
     public void shiftRight(){
-        int temp = myArray[myArray.length - 1];//setting aside the last element 
-        for(int i = myArray.length; i>0; i--) {
-            myArray[i]= myArray[i-1]; }
-            myArray[0]=temp;
+        int temp = binaryArray[binaryArray.length - 1];//setting aside the last element 
+        for(int i = binaryArray.length; i>0; i--) {
+            binaryArray[i]= binaryArray[i-1]; }
+            binaryArray[0]=temp;
     }
 }
